@@ -228,3 +228,35 @@
     list-style: none;
     display: block;
 }
+
+/* Authen modal */
+
+.auth__form {
+    width: 500px;
+}
+
+.auth__form-container {
+    padding: 0 32px;
+}
+
+.auth__form-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.auth__form-heading {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+.auth__form-switch-bth {
+    font-size: 1.6rem;
+    font-weight: 450;
+    color: #ee4d2d;
+    cursor: pointer;
+}
+
+.auth__form-form {
+    margin-top: 16px;
+}
