@@ -233,6 +233,8 @@
 
 .auth__form {
     width: 500px;
+    background-color: var(--white-color);
+    border-radius: 5px;
 }
 
 .auth__form-container {
@@ -243,6 +245,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 12px;
 }
 
 .auth__form-heading {
@@ -257,9 +260,6 @@
     cursor: pointer;
 }
 
-.auth__form-form {
-    
-}
 
 .auth__form-input {
     width: 100%;
@@ -302,10 +302,11 @@
 }
 
 .auth__from-socials {
-    background-color: #F5F5F5;
-    padding: 12px 36px;
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 15px 36px;
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .auth__from-socials-icon {
@@ -313,7 +314,46 @@
 
 }
 
+.auth__from-socials--facebook {
+    color: var(--white-color);
+    background-color: #3A5A98;
+}
+
 .auth__from-socials--facebook
 .auth__from-socials-icon {
+    color: var(--white-color);
+}
+
+.auth__from-socials-title {
+    margin: 0 36px;
     
+}
+
+
+.auth__from-socials--google {
+    background-color: var(--white-color);
+}
+
+
+.auth__form-help {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.auth__form__help-link {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #939393;
+}
+
+.auth__form-help-separate {
+    display: flex;
+    height: 19px;
+    margin: 0 16px;
+    border-left: 1px solid var(--border-color);
+}
+
+.auth__form__help-forgot {
+    color: var(--primary-color);
 }
