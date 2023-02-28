@@ -2,6 +2,8 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
+    --primary-color: #ee4d2d;
+    --border-color:#dbdbdb;
 }
 
 * {
@@ -66,4 +68,46 @@ html {
     position: relative;
     z-index: 1;
     border-radius: 5px;
+}
+
+/* Button style */
+
+.btn {
+    min-width: 142px;
+    height: 36px;
+    border-style: none;
+    text-decoration: none;
+    border-radius: 2px;
+    font-size: 1.3rem;
+    background-color: #fff;
+    padding: 0;
+    cursor: pointer;
+    color: var(--text-color);
+}
+.btn.btn--size-s {
+    height: 32px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: #f4f0f0;
+}
+
+.btn.btn--primary{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+
+
+
+
+
+.btn.btn--disable {
+    color: #949494;
+    cursor: default;
+    background-color: #c3c3c3;
 }
